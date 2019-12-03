@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>eQRH</title>
+    <link rel="stylesheet" href="css/eqrh.css">
+    <script src="js/eqrh.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div id="title">
+            <a href="index.html"><span>返回</span></a>着陆检查单
+            <button id="btn_reset" onclick="resetLi()">reset</button>
+        </div>
+    </div>
+    <div id="container">
+        <div id="content">
+            <ul>
+                <li>客舱机组<span>通知</span></li>
+                <li>A/THR<span>SPEED/OFF</span></li>
+                <li>自动刹车<span>按需</span></li>
+                <li>ECAM 备忘<span>着陆无蓝字</span>
+                    <p>
+                        . LDG GEAR DN<br>. SPLRS ARM<br>. SIGNS ON<br>. FLAPS SET<br>. CABIN READY
+                    </p>
+                </li>
+                <li>复飞高度/航迹<span>调定/证实</span></li>
+            </ul>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="info">已完成0/0</div>
+    </div>
+</body>
+
+</html>
